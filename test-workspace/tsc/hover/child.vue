@@ -106,7 +106,7 @@ defineEmits<{
   /**
    * This is an event with a payload
    */
-  eventWithPayload: [payload: string]
+  eventWithPayload: [payload: string, payload2: number]
 
   /**
    * This is a deprecated event
